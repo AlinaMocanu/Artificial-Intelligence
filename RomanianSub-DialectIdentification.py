@@ -163,12 +163,3 @@ train_model(linear_model.LogisticRegression(C = 10), xtrain_tfidf_ngram_chars, t
 
 # print number of tweets in each class
 print(validationDF['label'].value_counts())
-
-
-
-
-
-
-
-
-
